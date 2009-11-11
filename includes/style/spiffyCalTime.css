@@ -1,0 +1,150 @@
+/* Bazillyo's Spiffy Popup Calendar Styles v1.5 Copyright S. Ousta */
+#spiffycalendar {
+	width: 250px;
+	left: 0px;
+	top: 0px;
+	padding: 10px;
+	position: absolute;
+	visibility: hidden;
+	background-color: #999;
+	border: 3px solid #333;
+	}
+#spiffycalendar form {
+	background-color: #fff;
+	padding: 5px;
+}
+#spiffycalendar .cal_inside {
+	background-color: #fff;
+	padding: 5px;
+	border: 1px solid #333;
+}
+a.cal-DayLink {
+    font: 11px/10px verdana, Helvetica, sans-serif;
+    text-decoration: none;
+    color: black;
+	cursor: hand;
+	cursor: pointer;
+	}
+
+a.cal-DayLink:hover {
+    font: 11px/10px verdana, Helvetica, sans-serif;
+    text-decoration: none;
+    color: Blue;
+	cursor: hand;	
+	cursor: pointer;
+	}
+
+a.cal-DayLink:active {
+	font: 11px/10px verdana, Helvetica, sans-serif;
+    text-decoration: none;
+    color: #0066FF;
+	cursor: hand;
+	cursor: pointer;
+	}
+
+.cal-TextBox{
+	width: 100px;
+	font: 11px/10px verdana, Helvetica, sans-serif;
+	border: 1px solid #b5d5f3;
+	}
+
+.cal-TextBoxInvalid{
+    color: #660000;
+    font: 11px/10px verdana, Helvetica, sans-serif;
+	border: 1px solid #b5d5f3;
+	}
+
+.cal-TextBoxDisabled{
+    color: #808080;
+    font: 11px/10px verdana, Helvetica, sans-serif;
+	border: 1px solid #b5d5f3;
+	}
+
+.cal-ComboBox{
+    width: 60px;
+	font: 11px/10px verdana, Helvetica, sans-serif;
+	border: 1px solid #b5d5f3;
+	}
+
+.cal-Today {
+    font: 11px/10px verdana, Helvetica, sans-serif;
+    text-decoration: none;
+    color: red;
+	}
+
+.cal-Day {
+    font: 11px/10px verdana, Helvetica, sans-serif;
+    text-decoration: none;
+    color: black;
+	}
+
+
+a.cal-TodayLink {
+    font: 11px/10px verdana, Helvetica, sans-serif;
+    text-decoration: none;
+    color: red;
+	padding: 1px 5px;
+	border: 1px solid #0066cc;
+	}
+
+a.cal-TodayLink:hover {
+    font: 11px/10px verdana, Helvetica, sans-serif;
+    text-decoration: none;
+    color: Blue;
+	}
+
+a.cal-TodayLink:active {
+    font: 11px/10px verdana, Helvetica, sans-serif;
+    text-decoration: none;
+    color: #0066FF;
+	}
+
+.cal-GreyDate {
+    font: 11px/10px verdana, Helvetica, sans-serif;
+    text-decoration: none;
+	background-color: #FFFFCC;
+    color: #999999;
+	}
+
+.cal-GreyInvalidDate {
+    font: 11px/10px verdana, Helvetica, sans-serif;
+    text-decoration: line-through;
+	background-color: #FFFFCC;
+    color: #999999;
+	}
+
+.cal-DayCell {
+    font: 11px/10px verdana, Helvetica, sans-serif;
+	background-color:White; 
+	}
+
+.cal-HeadCell {
+    font: 12px/10px verdana, Helvetica, sans-serif;
+	color: Black;
+	/*background-color: #99CCFF; #CCCC99; */
+	}
+
+.cal-Table{
+	cursor: hand;
+	cursor: pointer;
+	}
+.cal-Table td {
+	padding: 4px 3px;
+}
+
+.so-BtnLink {
+	cursor: hand;
+	cursor: pointer;
+}
+
+.tbl_time td {
+	font-size: 13px;
+	font-weight: bold;
+	color: #fff;
+	padding: 10px 5px 5px;
+}
+.fld_txt_cal {
+	background: #fff;
+	border:1px solid #333;
+	padding: 3px 3px;
+}

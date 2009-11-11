@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chart>
+  <!-- <message bg_color="#BBBB00" text_color="#FFFFFF"><![CDATA[You can broadcast any message to chart from data XML file]]></message> -->
+	<series>
+		<value xid="100">1950</value>
+		<value xid="101">1951</value>
+		<value xid="102">1952</value>
+		<value xid="103">1953</value>
+		<value xid="104">1954</value>
+		<value xid="105">1955</value>
+		<value xid="106">1956</value>
+		<value xid="107">1957</value>
+		<value xid="108">1958</value>
+		<value xid="109">1959</value>
+		<value xid="110">1960</value>
+		<value xid="111">1961</value>
+		<value xid="112">1962</value>
+		<value xid="113">1963</value>
+		<value xid="114">1964</value>
+		<value xid="115">1965</value>
+		<value xid="116">1966</value>
+		<value xid="117">1967</value>
+		<value xid="118">1968</value>
+		<value xid="119">1969</value>
+		<value xid="120">1970</value>
+		<value xid="121">1971</value>
+		<value xid="122">1972</value>
+		<value xid="123">1973</value>
+		<value xid="124">1974</value>
+		<value xid="125">1975</value>
+		<value xid="126">1976</value>
+		<value xid="127">1977</value>
+		<value xid="128">1978</value>
+		<value xid="129">1979</value>
+		<value xid="130">1980</value>
+		<value xid="131">1981</value>
+		<value xid="132">1982</value>
+		<value xid="133">1983</value>
+		<value xid="134">1984</value>
+		<value xid="135">1985</value>
+		<value xid="136">1986</value>
+		<value xid="137">1987</value>
+		<value xid="138">1988</value>
+		<value xid="139">1989</value>
+		<value xid="140">1990</value>
+		<value xid="141">1991</value>
+		<value xid="142">1992</value>
+		<value xid="143">1993</value>
+		<value xid="144">1994</value>
+		<value xid="145">1995</value>
+		<value xid="146">1996</value>
+		<value xid="147">1997</value>
+		<value xid="148">1998</value>
+		<value xid="149">1999</value>
+		<value xid="150">2000</value>
+		<value xid="151">2001</value>
+		<value xid="152">2002</value>
+		<value xid="153">2003</value>
+		<value xid="154">2004</value>
+		<value xid="155">2005</value>
+	</series>
+	<graphs>
+		<graph gid="1">
+			
+			<value xid="107">0.030</value>
+			<value xid="137">0.179</value>
+			<value xid="138">0.180</value>
+			<value xid="139">0.104</value>
+			<value xid="140">0.255</value>
+			<value xid="141">0.210</value>
+			<value xid="142">0.065</value>
+			<value xid="143">0.110</value>
+			<value xid="144">0.172</value>
+			<value xid="145">0.269</value>
+			<value xid="146">0.141</value>
+			<value xid="147">0.353</value>
+			<value xid="148">0.548</value>
+			<value xid="149">0.298</value>
+			<value xid="150">0.267</value>
+			<value xid="151">0.411</value>
+			<value xid="152">0.462</value>
+			<value xid="153">0.470</value>
+			<value xid="154">0.445</value>
+			<value xid="155">0.470</value>
+		</graph>
+		
+	</graphs>
+</chart>

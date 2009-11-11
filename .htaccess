@@ -1,0 +1,30 @@
+AuthUserFile /mnt/stor2-wc2-dfw1/432082/test.tallyzoo.com/web/content/.htpasswd
+AuthName "TallyZoo"
+AuthType Basic
+
+<Limit GET>
+require valid-user
+</Limit>
+
+
+
+RewriteEngine on
+RewriteBase /
+RewriteRule ^activities/(.*)/(.*)$ index.php?mod=activityDetails&editId=$1&aname=$2
+RewriteRule ^activities2/(.*)/(.*)$ index.php?mod=activityDetails2&editId=$1&aname=$2
+RewriteRule ^dashboard(.*)$ index.php?mod=dashboard
+RewriteRule ^viewProfile/(.*)$ index.php?mod=viewProfile&userId=$1
+RewriteRule ^myActivity/(.*)$ index.php?mod=myActivity&s=$1
+RewriteRule ^myActivity(.*)$ index.php?mod=myActivity
+
+RewriteRule ^myData(.*)$ index.php?mod=myData
+RewriteRule ^search/(.*)$ index.php?mod=search&searchKeyVal=$1
+RewriteRule ^search(.*)$ index.php?mod=search
+RewriteRule ^updateProfile(.*)$ index.php?mod=updateProfile
+RewriteRule ^register(.*)$ index.php?mod=register
+RewriteRule ^login(.*)$ index.php?mod=login
+RewriteRule ^Invite(.*)$ index.php?mod=Invite
+
+
+RewriteRule ^content/(.*)$ index.php?mod=content&descId=$1&descId=$1
+RewriteRule ^communityData(.*)$ index.php?mod=communityData

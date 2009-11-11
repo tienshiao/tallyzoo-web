@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings> 
+<add_time_stamp>true</add_time_stamp>
+  <data_type>xml</data_type>             
+  <font>Tahoma</font>                    
+                                                          
+  <pie>
+     <link_target>_blank</link_target>
+     <y>53%</y>
+     <start_angle>0</start_angle>
+	 <radius>100</radius>
+	 <inner_radius>30</inner_radius>
+	 <outline_alpha>21</outline_alpha>
+	 <height>4</height>
+  </pie>
+  <strings>
+   <error_in_data_file>Oops we cannot find any data for creating your chart.</error_in_data_file>
+   <no_data>Oops we cannot find any data for creating your chart.</no_data> 
+  </strings>
+ <decimals_separator>.</decimals_separator>
+  <animation>
+    <start_time>0</start_time>           
+    <start_effect>regular</start_effect>  
+	 <start_alpha>0</start_alpha>
+    <pull_out_time></pull_out_time>   
+	<pull_out_on_click>false</pull_out_on_click> 
+    <pull_out_effect>false</pull_out_effect>   
+  </animation>
+  
+  <data_labels>
+    <show>  <enabled>false</enabled>  
+       <![CDATA[{title}: {percents}%]]>         
+    </show>
+
+  </data_labels>
+
+  
+  <balloon>                                           
+    <show>
+       <![CDATA[{title}: {value} ({percents}%)<br>{description}]]>
+    </show>
+   <color>333333</color>
+   <border_alpha>70</border_alpha>    
+    <border_width>2</border_width>
+	<border_color>000000</border_color>
+  </balloon>
+    
+  <legend>                                            
+    <enabled>true</enabled>                          
+	<spacing>1</spacing>
+  </legend>  
+  
+  <labels>                                         
+    <label> 
+	<spacing>10</spacing>
+    <margins>0</margins>
+       <align>center</align>                             
+      
+    </label>
+  </labels>
+</settings>

@@ -1,0 +1,4 @@
+<?
+$middle="addActivityComposit.tpl";
+
+?>
